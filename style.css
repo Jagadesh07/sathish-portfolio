@@ -10,6 +10,9 @@
     --text-color: black;
     --home-header-size:10rem;
 }
+html{
+    overflow-x: hidden;
+}
 body{
     width: 100%;
     background-color: rgb(235, 242, 245);
