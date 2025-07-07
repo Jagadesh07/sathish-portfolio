@@ -246,6 +246,9 @@ footer span{
     --head-font-size: 2rem;
     --home-header-size:5rem;
 }
+    .nav-bar{
+        dislay: none;
+    }
     #main{
         height: fit-content;
     }
