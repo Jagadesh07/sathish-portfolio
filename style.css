@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 :root{
     --header-font:"Bricolage Grotesque", sans-serif;
     --main-font:"Outfit", system-ui;
@@ -10,12 +13,11 @@
     --text-color: black;
     --home-header-size:10rem;
 }
-html{
+html, body{
     overflow-x: hidden;
 }
 body{
     width: 100%;
-    overflow-x: hidden;
     background-color: rgb(235, 242, 245);
     min-height: 100vh;
 }
@@ -54,7 +56,7 @@ body{
 }
 .nav-wrapper i{
     color: black;
-    padding: .5em .8em;
+    padding: .5em;
     margin: .5em;
     aspect-ratio: 1/1;
 }
@@ -72,6 +74,7 @@ body{
     height: 100%;
     width: 100%;
     display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;
 }
@@ -86,6 +89,10 @@ body{
     width: 90%;
     filter: grayscale(1);
     z-index: 1;
+    transition: .5s ease;
+}
+.home-container img:hover{
+    opacity: .5;
 }
 .home-container span{
     color: var(--text-color);
@@ -94,7 +101,7 @@ body{
     font-size: var(--home-header-size);
     top: 40%;
     font-weight: 700;
-    right: 13%;
+    right: 12%;
 }
 .home-container h1{
     color: var(--text-color);
@@ -102,7 +109,7 @@ body{
     position: absolute;
     font-size:var(--home-header-size);
     top: 40%;
-    left: 12%;
+    left: 10%;
 }
 
 
@@ -250,11 +257,11 @@ footer span{
     --head-font-size: 2rem;
     --home-header-size:5rem;
 }
-    .nav-bar{
-        display: none;
-    }
     #main{
         height: fit-content;
+    }
+    .nav-bar{
+        display: none;
     }
     .container{
         height: fit-content;
@@ -308,15 +315,16 @@ footer span{
             top: 30%;
         }
         .home-container h1{
-            left: 10%;
+            left: 5%;
         }
         .home-container span{
-            right: 10%;
+            right: 5%;
         }
     }
      @media (max-width:990px){
          .home-container h1{
             left: 2%;
+          
         }
         .home-container span{
             right: 2%;
