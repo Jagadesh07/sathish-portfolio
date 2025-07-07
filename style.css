@@ -92,6 +92,7 @@ body{
     height: 100%;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 .home-container i{
     display: none;
@@ -103,8 +104,7 @@ body{
     display: none;
 }
 .home-container img{
-    width: 50%;
-    display: none;
+    max-width: 50%;
     filter: grayscale(1);
     z-index: 1;
     transition: .5s ease;
