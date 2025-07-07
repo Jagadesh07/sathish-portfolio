@@ -70,7 +70,7 @@ body{
 
 /*  */
 #home{
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -104,7 +104,7 @@ body{
     display: none;
 }
 .home-container img{
-    max-width: 90%;
+    max-width: 70%;
     filter: grayscale(1);
     z-index: 1;
     transition: .5s ease;
@@ -148,7 +148,7 @@ body{
 /*  */
 #main{
     margin-top: 3rem;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
