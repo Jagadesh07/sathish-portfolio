@@ -308,10 +308,10 @@ footer span{
             top: 30%;
         }
         .home-container h1{
-            left: 5%;
+            left: 10%;
         }
         .home-container span{
-            right: 5%;
+            right: 10%;
         }
     }
      @media (max-width:990px){
