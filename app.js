@@ -1,3 +1,4 @@
+// nav-bar active link
 const sections = document.querySelectorAll("section[id]");
 
 function scrollTracker(){
@@ -15,7 +16,6 @@ function scrollTracker(){
     }
     });
 }
-
 window.addEventListener("scroll",scrollTracker);
 
 // scroll-reveal
