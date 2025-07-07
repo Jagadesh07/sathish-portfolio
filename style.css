@@ -320,6 +320,9 @@ footer span{
     .home-container i{
         display: block;
         }
+.home-container{
+width:100%;
+}
     .home-container h2{
         display: block;
         }
