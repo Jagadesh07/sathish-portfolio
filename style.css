@@ -103,7 +103,7 @@ body{
     display: none;
 }
 .home-container img{
-    width: 80%;
+    width: 50%;
     filter: grayscale(1);
     z-index: 1;
     transition: .5s ease;
