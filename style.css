@@ -326,7 +326,7 @@ footer{
     font-family:'poppins';
 }
 footer span{
-    font-family: "Playwrite HU", cursive;
+    font-family: var(--highlight-font), cursive;
     font-weight: 500;
     text-transform: capitalize;
 }
