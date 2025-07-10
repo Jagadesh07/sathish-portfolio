@@ -102,7 +102,9 @@ body{
 .nav-wrapper button:nth-child(1){
     padding: .1rem .2rem;
 }
-
+.light{
+    background-color: white;
+}
 /*  */
 #home{
     min-height: 100vh;
