@@ -261,7 +261,7 @@ body{
 }
 
 .education{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--text-color);
 }
 
 .education p{
@@ -271,7 +271,7 @@ body{
 
 .job{
     margin: 2rem 0;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--text-color);
 }
 .job p{
     font-family: var(--main-font);
