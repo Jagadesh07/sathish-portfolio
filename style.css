@@ -375,8 +375,12 @@ footer span{
         width: 50%;
     }
         /* main-section */
+    .topic{
+        margin: 0;
+    }
     #main{
         height: fit-content;
+        margin-top: 0;
     }
     .nav-bar{
         display: none;
