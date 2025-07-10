@@ -89,7 +89,6 @@ body{
 }
 .nav-wrapper button{
    border: none;
-   background-color: transparent;
     border-radius: 50px;
     margin: .3rem;
     padding: .1rem;
@@ -104,6 +103,9 @@ body{
 }
 .light{
     background-color: white;
+}
+.dark{
+       background-color: transparent;
 }
 /*  */
 #home{
