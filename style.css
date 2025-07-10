@@ -89,7 +89,7 @@ body{
 }
 .nav-wrapper button{
    border: none;
-   background-color: none;
+   background-color: transparent;
     border-radius: 50px;
     margin: .3rem;
     padding: .1rem;
@@ -101,11 +101,6 @@ body{
 }
 .nav-wrapper button:nth-child(1){
     padding: .1rem .2rem;
-}
-.mode-active{
-    background-color: var(--highlight-color);
-    border-radius: 40%;
-    transition: .5s ease;
 }
 
 /*  */
