@@ -349,14 +349,9 @@ footer span{
     :root{
     --head-font-size: 2rem;
     }
-
-    /* mode-section
-    .mode-switch{
-        top: 5%;
-        left: 90%;
-    } */
     /* home-section */
     #home{
+        height:fit-content;
         padding-bottom: 0;
     }
     .pc-home-heading{
@@ -433,11 +428,6 @@ footer span{
 
     /*phones*/
     @media(max-width:710px){
-         /* mode-section */
-    /* .mode-switch{
-        top: 4%;
-        left: 50%;
-    } */
         .home-container img{
             width: 80%;
         }
